@@ -1,0 +1,633 @@
+@media only screen and (max-width: 600px) {
+.our-events .our-events-title::after {
+    content: "";
+    background: #ff3115;
+    height: 3px;
+    width: 110px;
+    position: absolute;
+    left: 33%;
+}
+}
+@media only screen and (max-width: 600px) {
+.testimonials .testimonials-title::after {
+    content: "";
+    background: #ff3115;
+    height: 3px;
+    width: 110px;
+    position: absolute;
+    left: 33%;
+}
+}
+@media only screen and (max-width: 600px) {
+.our-publications .our-publications-title::after {
+    content: "";
+    background: #ff3115;
+    height: 3px;
+    width: 110px;
+    position: absolute;
+    left: 33%;
+}
+}
+@media only screen and (max-width: 600px) {
+.our-news .our-news-title::after {
+    content: "";
+    background: #ff3115;
+    height: 3px;
+    width: 110px;
+    position: absolute;
+    left: 33%;
+}
+}
+@media only screen and (max-width: 600px) {
+.web-design .web-design-title::after {
+    content: "";
+    background: #ff3115;
+    height: 3px;
+    width: 110px;
+    position: absolute;
+    left: 33%;
+}
+}
+@media only screen and (max-width: 600px) {
+.our-team .our-team-title::after {
+    content: "";
+    background: #ff3115;
+    height: 3px;
+    width: 110px;
+    position: absolute;
+    left: 33%;
+}
+}
+@media only screen and (max-width: 600px) {
+.our-courses .our-courses-title::after {
+    content: "";
+    background: #ff3115;
+    height: 3px;
+    width: 110px;
+    position: absolute;
+    left: 33%;
+}
+}
+@media only screen and (max-width: 600px) {
+.about-us .about-us-title::after {
+    content: "";
+    background: #ff3115;
+    height: 3px;
+    width: 110px;
+    position: absolute;
+    left: 33%;
+}
+}
+@media only screen and (max-width: 600px) {
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+h3{
+    font-size: 18px!important;
+    margin-bottom: 4px;
+}
+}
+@media only screen and (max-width: 600px) {
+p{
+    font-size: 16px!important;
+}
+}
+
+/* header responsiveness css starts*/
+@media only screen and (max-width: 600px) {
+header .sl-readmore-btn{
+    padding: 5px 15px;
+        margin-right: 10px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+header .sl-get-started-btn{
+    padding: 5px 15px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+header .item .cover{
+       height: auto;
+}
+}
+
+@media only screen and (max-width: 600px) {
+header .item{
+       height: 35vh;
+}
+}
+
+@media only screen and (max-width: 600px) {
+header .item .cover .header-content{
+      padding:0px;
+}
+}
+/*services section css*/
+@media only screen and (max-width: 600px) {
+.services{
+    padding-top: 60px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.services .services-content{
+       margin-top: 65px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.services .services-content .services-description h4{
+      font-size: 16px;
+}
+}
+
+/*about us section css*/
+@media only screen and (max-width: 600px) {
+.about-us {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: -30px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.about-us .about-us-title{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.about-us .about-us-title h3 {
+    font-size: 16px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.about-us .about-us-title p {
+    font-size: 14px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.about-us .about-us-img{
+       margin-bottom: 40px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.about-desc h3{
+           font-size: 24px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+ .about-desc p{
+           font-size: 15px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.rs-accordion-style1 .card .card-header .acdn-title{
+           font-size: 17px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.rs-accordion-style1 .card .card-body p{
+           font-size: 16px!important;
+}
+}
+
+/*our courses css starts*/
+@media only screen and (max-width: 600px) {
+.our-courses {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #f9f9f9;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-courses .our-courses-title{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-courses .our-courses-title p {
+    font-size: 14px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-courses .our-courses-content{
+   overflow: hidden;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-courses .course-footer h6{
+  font-size: 13px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-courses .course-footer p{
+   font-size: 13px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-courses .course-body .course-review-wrap .review{
+   font-size: 15px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-courses .course-body .course-price{
+	position: absolute;
+       top: 235px;
+    right: 35px;
+}
+}
+
+/*counter css starts*/
+@media only screen and (max-width: 600px) {
+.counter{
+	    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-origin: content-box;
+    background-position: center top;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.counter .pb-70{
+	padding-bottom: 50px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.counter .pt-100{
+	padding-top: 80px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.counter .counter-title{
+	    font-size: 18px;
+    margin-bottom: 14px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.counter .rs-counter .rs-counter-list .counter-number{
+	    font-size: 40px;
+}
+}
+
+/*events css starts*/
+@media only screen and (max-width: 600px) {
+.our-events {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-events .our-events-title h3{
+   font-size: 16px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-events .our-events-title p{
+   font-size: 14px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-events .our-events-content{
+   overflow: hidden;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-events .our-events-title{
+       padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-events .event-desc{
+       padding-left: 30px;
+    padding-right: 30px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-events .product-item .product-title{
+       font-size: 17px!important;
+}
+}
+
+/*our-team css starts*/
+@media only screen and (max-width: 600px) {
+.our-team {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-team .our-team-title{
+   padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-team .our-team-title h3{
+   font-size: 16px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-team .our-team-title p{
+   font-size: 14px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-team .our-team-content{
+  overflow: hidden;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-team .staff-info{
+     padding: 11px 34px;
+}
+}
+
+/*web-design css starts*/
+@media only screen and (max-width: 600px) {
+.web-design {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.web-design {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.web-design .web-design-title{
+       padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.web-design .web-design-title p{
+   font-size: 14px!important;
+}
+}
+
+/*news css starts*/
+@media only screen and (max-width: 600px) {
+.our-news {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-news .our-news-title{
+   padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-news .our-news-title h3{
+   font-size: 16px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-news .our-news-title p{
+   font-size: 14px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-news .news-content .news-main .news-title a{
+  font-size: 17px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.news-list {
+        margin-left: 15px;
+    margin-right: 15px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-news .news-list{
+  margin-top: 13px;
+    margin-bottom: 0px;
+}
+}
+
+/*publication css starts*/
+@media only screen and (max-width: 600px) {
+.our-publications {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-publications .our-publications-title{
+   padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-publications .our-publications-title h3{
+   font-size: 16px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-publications .our-publications-title p{
+   font-size: 14px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-publications .our-publications-content{
+       overflow: hidden;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.our-publications .product-item .product-title a{
+          font-size: 17px;
+}
+}
+
+/*testimonials*/
+@media only screen and (max-width: 600px) {
+.testimonials {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.testimonials .testimonials-title{
+   padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.testimonials .testimonials-title h3{
+   font-size: 18px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.testimonials .testimonials-title p{
+   font-size: 14px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.testimonials .product-item .product-title a {
+    font-size: 17px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.testimonials .product-item{
+    padding: 50px 40px;
+    padding-top: 22px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.slick-slide img {
+    display: block;
+    height: auto;
+    width: 125px;
+}
+}
+
+/*footer css strts*/
+@media only screen and (max-width: 600px) {
+.footer .footer-contact-desc {
+    border-radius: 0px;
+}
+}
+
+}
+@media only screen and (max-width: 600px) {
+.footer .footer-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+}
+@media only screen and (max-width: 600px) {
+.footer .contact-inner {
+    margin-bottom: 20px;
+}
+}
+@media only screen and (max-width: 600px) {
+.footer .footer-top {
+    padding-top: 440px;
+    color: white;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.footer .footer-contact-desc div[class*="col-"] + div[class*="col-"] .contact-inner:before{
+    display: none;
+}
+}
+@media only screen and (max-width: 600px) {
+.footer .footer-contact-desc div[class*="col-"] + div[class*="col-"] .contact-inner:after {
+    display: none;
+}
+}
+@media only screen and (max-width: 600px) {
+.footer .footer-contact-desc div[class*="col-"] + div[class*="col-"] .contact-inner {
+    border-left: none;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.footer .footer-top p{
+   font-size: 14px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.post-desc .post-category {
+    font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.post-desc .post-title a {
+    font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.recent-post-widget .post-item{
+        margin-bottom: 5px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.footer .sitemap-widget li a{
+      font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.footer .news-form input{
+        width: 100%;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.footer .news-form button {
+        color: white;
+    background: #ff3115;
+    border: none;
+    font-size: 18px;
+    position: absolute;
+    padding: 11px 20px;
+    top: 0px;
+       left: 83%;
+}
+}

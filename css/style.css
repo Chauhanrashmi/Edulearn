@@ -1962,157 +1962,18 @@ list-style-type: none;
     top: 50%;
     transform: translateY(-50%);
 }
-
-@media only screen and (max-width: 600px) {
-.our-events .our-events-title::after {
-    content: "";
-    background: #ff3115;
-    height: 3px;
-    width: 110px;
+.our-courses-content .product-item .course-img:after {
     position: absolute;
-    left: 33%;
-}
-}
-@media only screen and (max-width: 600px) {
-.testimonials .testimonials-title::after {
     content: "";
-    background: #ff3115;
-    height: 3px;
-    width: 110px;
-    position: absolute;
-    left: 33%;
-}
-}
-@media only screen and (max-width: 600px) {
-.our-publications .our-publications-title::after {
-    content: "";
-    background: #ff3115;
-    height: 3px;
-    width: 110px;
-    position: absolute;
-    left: 33%;
-}
-}
-@media only screen and (max-width: 600px) {
-.our-news .our-news-title::after {
-    content: "";
-    background: #ff3115;
-    height: 3px;
-    width: 110px;
-    position: absolute;
-    left: 33%;
-}
-}
-@media only screen and (max-width: 600px) {
-.web-design .web-design-title::after {
-    content: "";
-    background: #ff3115;
-    height: 3px;
-    width: 110px;
-    position: absolute;
-    left: 33%;
-}
-}
-@media only screen and (max-width: 600px) {
-.our-team .our-team-title::after {
-    content: "";
-    background: #ff3115;
-    height: 3px;
-    width: 110px;
-    position: absolute;
-    left: 33%;
-}
-}
-@media only screen and (max-width: 600px) {
-.our-courses .our-courses-title::after {
-    content: "";
-    background: #ff3115;
-    height: 3px;
-    width: 110px;
-    position: absolute;
-    left: 33%;
-}
-}
-@media only screen and (max-width: 600px) {
-.about-us .about-us-title::after {
-    content: "";
-    background: #ff3115;
-    height: 3px;
-    width: 110px;
-    position: absolute;
-    left: 33%;
-}
-}
-@media only screen and (max-width: 600px) {
-.owl-theme .owl-nav {
-    margin-top: 10px;
-    display: none !important;
-}
-}
-@media only screen and (max-width: 600px) {
-.about-us {
-    padding-top: 70px;
-    padding-bottom: 80px;
-}
-}
-@media only screen and (max-width: 600px) {
-.our-courses {
-    padding-top: 70px;
-    padding-bottom: 80px;
-}
-}
-@media only screen and (max-width: 600px) {
-.counter {
-    padding-top: 70px;
-    padding-bottom: 80px;
-}
-}
-@media only screen and (max-width: 600px) {
-.footer .footer-title {
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-}
-@media only screen and (max-width: 600px) {
-.footer .contact-inner {
-    margin-bottom: 20px;
-}
-}
-@media only screen and (max-width: 600px) {
-.footer .footer-top {
-    padding-top: 430px;
-    color: white;
-}
-}
-@media only screen and (max-width: 600px) {
-.news-list {
-        margin-left: 15px;
-    margin-right: 15px;
-}
-}
-@media only screen and (max-width: 600px) {
-.footer .footer-contact-desc div[class*="col-"] + div[class*="col-"] .contact-inner:before{
-    display: none;
-}
-}
-@media only screen and (max-width: 600px) {
-.footer .footer-contact-desc div[class*="col-"] + div[class*="col-"] .contact-inner:after {
-    display: none;
-}
-}
-@media only screen and (max-width: 600px) {
-.footer .footer-contact-desc div[class*="col-"] + div[class*="col-"] .contact-inner {
-    border-left: none;
-}
-}
-@media only screen and (max-width: 600px) {
-h3{
-    font-size: 18px!important;
-    margin-bottom: 4px;
-}
-}
-@media only screen and (max-width: 600px) {
-p{
-    font-size: 16px!important;
-}
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transition: 0.4s;
+    -ms-transition: 0.4s;
+    transition: 0.4s;
 }
