@@ -269,100 +269,51 @@ header .item .cover .header-content h4 {
  display: none;
 }
 }
-header .owl-dots{
+/*header .owl-dots{
 	display: none;
-}
+}*/
 header .owl-item.active h1 {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  animation-name: fadeInDown;
-  animation-delay: 0.3s;
-}
-header .owl-item.active h2 {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  animation-name: fadeInDown;
-  animation-delay: 0.3s;
+  animation-name:fadeInUpShort;
+  animation-delay: 0.2s;
 }
 header .owl-item.active h4 {
   -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  animation-name: fadeInUp;
+  animation-name:fadeInUpShort;
   animation-delay: 0.3s;
 }
-header .owl-item.active .line {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+header .owl-item.active a{
+	-webkit-animation-duration: 1s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  animation-name: fadeInLeft;
+  animation-name:fadeInUpShort;
   animation-delay: 0.3s;
 }
-header .owl-nav .owl-prev {
-  position: absolute;
-  left: 15px;
-  top: 43%;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
-  background: rgba(0, 0, 0, 0.5) !important;
-  width: 40px;
-  cursor: pointer;
-  height: 40px;
-  position: absolute;
-  display: block;
-  z-index: 1000;
-  border-radius: 0;
+header .owl-theme .owl-nav{
+   display: none;
 }
-header .owl-nav .owl-prev span {
-  font-size: 1.6875rem;
-  color: #fff;
+.header-carousel .owl-dots{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: rotate(90deg);
 }
-header .owl-nav .owl-prev:focus {
-  outline: 0;
-}
-header .owl-nav .owl-prev:hover {
-  background: #000 !important;
-}
-header .owl-nav .owl-next {
-  position: absolute;
-  right: 15px;
-  top: 43%;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
-  background: rgba(0, 0, 0, 0.5) !important;
-  width: 40px;
-  cursor: pointer;
-  height: 40px;
-  position: absolute;
-  display: block;
-  z-index: 1000;
-  border-radius: 0;
-}
-header .owl-nav .owl-next span {
-  font-size: 1.6875rem;
-  color: #fff;
-}
-header .owl-nav .owl-next:focus {
-  outline: 0;
-}
-header .owl-nav .owl-next:hover {
-  background: #000 !important;
-}
-header:hover .owl-prev {
-  left: 0px;
-  opacity: 1;
-}
-header:hover .owl-next {
-  right: 0px;
-  opacity: 1;
+header .owl-theme .owl-dots .owl-dot span {
+    width: 16px;
+    height: 5px;
+    margin: 5px 4px;
+    background: #ffffff;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 0px;
 }
 header .sl-readmore-btn{
     border: 2px solid #101010;
@@ -1356,15 +1307,40 @@ left: 46%;
 }
 .our-courses .product-item .product-img {
   margin-bottom: 17px;
+  position: relative;
   overflow: hidden;
 }
-.our-courses .product-item .product-img img {
+
+.our-courses .product-item .product-img::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transform: scaleY(0);
+    transition: 0.4s;
+}
+/*.our-courses .product-item .product-img img {
   width: 100%;
   transition: all 0.3s ease 0s;
-}
-.our-courses .product-item .product-img:hover .product-img{
+}*/
 
+.our-courses .img-link{
+	display: none;
+	position: absolute;
+    top: 50%;
+    color: red;
+    font-size: 22px;
+    left: 50%;
+    transform: scale(1.1);
 }
+
+.our-courses .product-item .product-img:hover .img-link{
+  display: block;
+}
+
 .our-courses .product-item .product-title {
         margin-top: 5px;
     font-size: 18px;
