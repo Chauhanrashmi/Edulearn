@@ -305,6 +305,11 @@ header .owl-theme .owl-nav{
     right: 0%;
     transform: rotate(90deg);
 }
+@media only screen and (max-width: 600px) {
+.header-carousel .owl-dots{
+    display: none;
+}
+}
 header .owl-theme .owl-dots .owl-dot span {
     width: 16px;
     height: 5px;
