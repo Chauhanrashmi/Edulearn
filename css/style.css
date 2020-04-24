@@ -1945,7 +1945,9 @@ list-style-type: none;
     top: 50%;
     transform: translateY(-50%);
 }
-.our-courses-content .product-item .course-img:after {
+
+/*ani*/
+.our-courses .product-item .product-img:after {
     position: absolute;
     content: "";
     width: 100%;
@@ -1959,4 +1961,43 @@ list-style-type: none;
     -webkit-transition: 0.4s;
     -ms-transition: 0.4s;
     transition: 0.4s;
+}
+.our-courses .product-item:hover .product-img:after {
+    transform: scaleY(1);
+}
+.our-courses .img-link {    z-index: 111; }
+
+
+.counter-img.rs-image-effect-shine {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+}
+.counter-img.rs-image-effect-shine:before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+.counter-img.rs-image-effect-shine:hover::before {
+    -webkit-animation: img-shine 1s;
+    animation: img-shine 1s;
+}
+@-webkit-keyframes img-shine {
+  100% {
+    left: 125%;
+  }
+}
+@keyframes img-shine {
+  100% {
+    left: 125%;
+  }
 }
